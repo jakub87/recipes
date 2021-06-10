@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class RecipesApplicationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class RecipesApplicationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; RecipesApplicationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">49.011s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">start</td>
+<td class="success">49.011s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-06-10 13:00:36.875  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication on DESKTOP-KSMPIDG with PID 12856 (started by A593191 in C:\Users\A593191\IdeaProjects\Recipes\Recipes\task)
+2021-06-10 13:00:36.884  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2021-06-10 13:00:40.085  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-10 13:00:40.614  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 502ms. Found 2 JPA repository interfaces.
+2021-06-10 13:00:41.988  INFO 12856 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-10 13:00:42.949  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2021-06-10 13:00:42.978  INFO 12856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 13:00:42.979  INFO 12856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-06-10 13:00:43.496  INFO 12856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 13:00:43.497  INFO 12856 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6471 ms
+2021-06-10 13:00:43.969  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-10 13:00:44.687  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-10 13:00:44.717  INFO 12856 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+2021-06-10 13:00:45.935  INFO 12856 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-10 13:00:46.365  INFO 12856 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2021-06-10 13:00:47.052  INFO 12856 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-10 13:00:47.541  INFO 12856 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: create table recipe (id bigint not null, category varchar(255), date timestamp, description varchar(255), directions binary(255), ingredients binary(255), name varchar(255), fk_author bigint, primary key (id))
+Hibernate: create table user (id bigint not null, email varchar(255), password varchar(255), status boolean not null, primary key (id))
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: alter table recipe add constraint FKns27pg94ksfq9jvfi24set8fr foreign key (fk_author) references user
+2021-06-10 13:00:50.164  INFO 12856 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-10 13:00:50.214  INFO 12856 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 13:00:50.454  WARN 12856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-10 13:00:52.501  INFO 12856 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33eabf2e, org.springframework.security.web.context.SecurityContextPersistenceFilter@569b84af, org.springframework.security.web.header.HeaderWriterFilter@4796733d, org.springframework.security.web.authentication.logout.LogoutFilter@539578ff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@641086a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d297175, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b556b43, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78f6673d, org.springframework.security.web.session.SessionManagementFilter@70a8e6c8, org.springframework.security.web.access.ExceptionTranslationFilter@1a68c36e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13aaafd7]
+2021-06-10 13:00:53.202  INFO 12856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-10 13:00:53.985  INFO 12856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-10 13:00:54.223  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-10 13:00:54.234  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 18.606 seconds (JVM running for 22.209)
+2021-06-10 13:00:55.462  INFO 12856 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 13:00:55.464  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 13:00:55.492  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (email, password, status, id) values (?, ?, ?, ?)
+?[1;31m
+Start test 2?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 3?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (email, password, status, id) values (?, ?, ?, ?)
+?[1;31m
+Start test 4?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into user (email, password, status, id) values (?, ?, ?, ?)
+?[1;31m
+Start test 5?[0m
+2021-06-10 13:00:57.497  WARN 12856 --- [nio-8881-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.registerUser(recipes.model.DTO.UserDTO): [Field error in object 'userDTO' on field 'email': rejected value [Test3@testcom]; codes [Pattern.userDTO.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@50fab6de,.{1,}[@].{1,}[.].{1,}]; default message [must match &quot;.{1,}[@].{1,}[.].{1,}&quot;]] ]
+?[1;31m
+Start test 6?[0m
+2021-06-10 13:00:57.578  WARN 12856 --- [nio-8881-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.registerUser(recipes.model.DTO.UserDTO): [Field error in object 'userDTO' on field 'email': rejected value [Test4test.com]; codes [Pattern.userDTO.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@50fab6de,.{1,}[@].{1,}[.].{1,}]; default message [must match &quot;.{1,}[@].{1,}[.].{1,}&quot;]] ]
+?[1;31m
+Start test 7?[0m
+2021-06-10 13:00:57.604  WARN 12856 --- [nio-8881-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.registerUser(recipes.model.DTO.UserDTO): [Field error in object 'userDTO' on field 'password': rejected value [Test555]; codes [Pattern.userDTO.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@50fab6de,\S{8,}]; default message [must match &quot;\S{8,}&quot;]] ]
+?[1;31m
+Start test 8?[0m
+2021-06-10 13:00:57.632  WARN 12856 --- [nio-8881-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.registerUser(recipes.model.DTO.UserDTO): [Field error in object 'userDTO' on field 'password': rejected value [        ]; codes [Pattern.userDTO.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDTO.password,password]; arguments []; default message [password],[Ljavax.validation.constraints.Pattern$Flag;@50fab6de,\S{8,}]; default message [must match &quot;\S{8,}&quot;]] ]
+?[1;31m
+Start test 9?[0m
+2021-06-10 13:00:58.495  WARN 12856 --- [io-8881-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [577] milliseconds.
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 10?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 11?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 12?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 13?[0m
+2021-06-10 13:00:59.734  INFO 12856 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-10 13:00:59.737  INFO 12856 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 13:00:59.746  INFO 12856 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-10 13:00:59.788  INFO 12856 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-06-10 13:01:00.621  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication on DESKTOP-KSMPIDG with PID 12856 (started by A593191 in C:\Users\A593191\IdeaProjects\Recipes\Recipes\task)
+2021-06-10 13:01:00.633  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2021-06-10 13:01:01.831  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-10 13:01:01.881  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 2 JPA repository interfaces.
+2021-06-10 13:01:02.112  INFO 12856 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-10 13:01:02.260  WARN 12856 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2021-06-10 13:01:02.284  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2021-06-10 13:01:02.286  INFO 12856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 13:01:02.287  INFO 12856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-06-10 13:01:02.417  INFO 12856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 13:01:02.418  INFO 12856 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1759 ms
+2021-06-10 13:01:02.533  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-06-10 13:01:02.568  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-10 13:01:02.568  INFO 12856 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+2021-06-10 13:01:02.885  INFO 12856 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-10 13:01:02.922  INFO 12856 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-10 13:01:03.350  INFO 12856 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-10 13:01:03.350  INFO 12856 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 13:01:03.503  WARN 12856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-10 13:01:03.812  INFO 12856 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48a68f7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c799fb2, org.springframework.security.web.header.HeaderWriterFilter@3b9d1445, org.springframework.security.web.authentication.logout.LogoutFilter@478053da, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@518477b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fe73ea0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c0b3825, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d82440, org.springframework.security.web.session.SessionManagementFilter@51bf4160, org.springframework.security.web.access.ExceptionTranslationFilter@4f57874a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bf5470d]
+2021-06-10 13:01:04.104  INFO 12856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-10 13:01:05.053  INFO 12856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-10 13:01:05.181  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-10 13:01:05.185  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 4.763 seconds (JVM running for 33.16)
+?[1;31m
+Start test 14?[0m
+2021-06-10 13:01:05.205  INFO 12856 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 13:01:05.207  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 13:01:05.218  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 15?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 16?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+Hibernate: update recipe set fk_author=?, category=?, date=?, description=?, directions=?, ingredients=?, name=? where id=?
+?[1;31m
+Start test 17?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 18?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: delete from recipe where id=?
+?[1;31m
+Start test 19?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 20?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 21?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 22?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 23?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 24?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 25?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 26?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 27?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 28?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 29?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 30?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 31?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 32?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 33?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 34?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 35?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.category)=upper(?) order by recipe0_.date desc
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.password as password3_1_0_, user0_.status as status4_1_0_ from user user0_ where user0_.id=?
+?[1;31m
+Start test 36?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.name) like upper(?) escape ? order by recipe0_.date desc
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.password as password3_1_0_, user0_.status as status4_1_0_ from user user0_ where user0_.id=?
+?[1;31m
+Start test 37?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.category)=upper(?) order by recipe0_.date desc
+?[1;31m
+Start test 38?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.name) like upper(?) escape ? order by recipe0_.date desc
+?[1;31m
+Start test 39?[0m
+?[1;31m
+Start test 40?[0m
+?[1;31m
+Start test 41?[0m
+?[1;31m
+Start test 42?[0m
+?[1;31m
+Start test 43?[0m
+2021-06-10 13:01:10.169  WARN 12856 --- [io-8881-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'name': rejected value [null]; codes [NotBlank.recipeDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+?[1;31m
+Start test 44?[0m
+2021-06-10 13:01:10.313  WARN 12856 --- [nio-8881-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'category': rejected value [null]; codes [NotBlank.recipeDTO.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 45?[0m
+2021-06-10 13:01:10.444  WARN 12856 --- [nio-8881-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'description': rejected value [null]; codes [NotBlank.recipeDTO.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 46?[0m
+2021-06-10 13:01:10.569  WARN 12856 --- [nio-8881-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'ingredients': rejected value [null]; codes [NotNull.recipeDTO.ingredients,NotNull.ingredients,NotNull.[Ljava.lang.String;,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be null]] ]
+?[1;31m
+Start test 47?[0m
+2021-06-10 13:01:10.697  WARN 12856 --- [nio-8881-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'directions': rejected value [null]; codes [NotNull.recipeDTO.directions,NotNull.directions,NotNull.[Ljava.lang.String;,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.directions,directions]; arguments []; default message [directions]]; default message [must not be null]] ]
+?[1;31m
+Start test 48?[0m
+2021-06-10 13:01:10.850  WARN 12856 --- [nio-8881-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'name': rejected value [  ]; codes [NotBlank.recipeDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+?[1;31m
+Start test 49?[0m
+2021-06-10 13:01:11.002  WARN 12856 --- [nio-8881-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'category': rejected value [  ]; codes [NotBlank.recipeDTO.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 50?[0m
+2021-06-10 13:01:11.162  WARN 12856 --- [nio-8881-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'description': rejected value [  ]; codes [NotBlank.recipeDTO.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 51?[0m
+2021-06-10 13:01:11.335  WARN 12856 --- [nio-8881-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'ingredients': rejected value [{}]; codes [Size.recipeDTO.ingredients,Size.ingredients,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.ingredients,ingredients]; arguments []; default message [ingredients],2147483647,1]; default message [size must be between 1 and 2147483647]] ]
+?[1;31m
+Start test 52?[0m
+2021-06-10 13:01:11.503  WARN 12856 --- [nio-8881-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public recipes.model.Answer recipes.controller.RecipeController.addRecipe(recipes.model.DTO.RecipeDTO,java.security.Principal): [Field error in object 'recipeDTO' on field 'directions': rejected value [{}]; codes [Size.recipeDTO.directions,Size.directions,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.directions,directions]; arguments []; default message [directions],2147483647,1]; default message [size must be between 1 and 2147483647]] ]
+?[1;31m
+Start test 53?[0m
+2021-06-10 13:01:11.670  WARN 12856 --- [io-8881-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'name': rejected value [null]; codes [NotBlank.recipeDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+?[1;31m
+Start test 54?[0m
+2021-06-10 13:01:11.851  WARN 12856 --- [nio-8881-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'category': rejected value [null]; codes [NotBlank.recipeDTO.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 55?[0m
+2021-06-10 13:01:12.000  WARN 12856 --- [nio-8881-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'description': rejected value [null]; codes [NotBlank.recipeDTO.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 56?[0m
+2021-06-10 13:01:12.151  WARN 12856 --- [nio-8881-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'ingredients': rejected value [null]; codes [NotNull.recipeDTO.ingredients,NotNull.ingredients,NotNull.[Ljava.lang.String;,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.ingredients,ingredients]; arguments []; default message [ingredients]]; default message [must not be null]] ]
+?[1;31m
+Start test 57?[0m
+2021-06-10 13:01:12.321  WARN 12856 --- [nio-8881-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'directions': rejected value [null]; codes [NotNull.recipeDTO.directions,NotNull.directions,NotNull.[Ljava.lang.String;,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.directions,directions]; arguments []; default message [directions]]; default message [must not be null]] ]
+?[1;31m
+Start test 58?[0m
+2021-06-10 13:01:12.478  WARN 12856 --- [nio-8881-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'name': rejected value [  ]; codes [NotBlank.recipeDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.name,name]; arguments []; default message [name]]; default message [must not be blank]] ]
+?[1;31m
+Start test 59?[0m
+2021-06-10 13:01:12.643  WARN 12856 --- [nio-8881-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'category': rejected value [  ]; codes [NotBlank.recipeDTO.category,NotBlank.category,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.category,category]; arguments []; default message [category]]; default message [must not be blank]] ]
+?[1;31m
+Start test 60?[0m
+2021-06-10 13:01:12.846  WARN 12856 --- [nio-8881-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'description': rejected value [  ]; codes [NotBlank.recipeDTO.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.description,description]; arguments []; default message [description]]; default message [must not be blank]] ]
+?[1;31m
+Start test 61?[0m
+2021-06-10 13:01:13.014  WARN 12856 --- [nio-8881-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'ingredients': rejected value [{}]; codes [Size.recipeDTO.ingredients,Size.ingredients,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.ingredients,ingredients]; arguments []; default message [ingredients],2147483647,1]; default message [size must be between 1 and 2147483647]] ]
+?[1;31m
+Start test 62?[0m
+2021-06-10 13:01:13.186  WARN 12856 --- [nio-8881-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void recipes.controller.RecipeController.updateRecipe(recipes.model.DTO.RecipeDTO,java.lang.Long,java.security.Principal): [Field error in object 'recipeDTO' on field 'directions': rejected value [{}]; codes [Size.recipeDTO.directions,Size.directions,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [recipeDTO.directions,directions]; arguments []; default message [directions],2147483647,1]; default message [size must be between 1 and 2147483647]] ]
+?[1;31m
+Start test 63?[0m
+2021-06-10 13:01:13.720  INFO 12856 --- [       Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-10 13:01:13.733  INFO 12856 --- [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 13:01:13.740  INFO 12856 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-06-10 13:01:13.809  INFO 12856 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-06-10 13:01:14.627  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication on DESKTOP-KSMPIDG with PID 12856 (started by A593191 in C:\Users\A593191\IdeaProjects\Recipes\Recipes\task)
+2021-06-10 13:01:14.629  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+2021-06-10 13:01:16.916  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-10 13:01:17.032  INFO 12856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 2 JPA repository interfaces.
+2021-06-10 13:01:17.301  INFO 12856 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-10 13:01:17.547  WARN 12856 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2021-06-10 13:01:17.595  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+2021-06-10 13:01:17.596  INFO 12856 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 13:01:17.597  INFO 12856 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-06-10 13:01:17.765  INFO 12856 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 13:01:17.766  INFO 12856 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3130 ms
+2021-06-10 13:01:17.960  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-06-10 13:01:18.026  INFO 12856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-06-10 13:01:18.027  INFO 12856 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../recipes_db'
+2021-06-10 13:01:18.483  INFO 12856 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-10 13:01:18.536  INFO 12856 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-10 13:01:19.046  INFO 12856 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-10 13:01:19.047  INFO 12856 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-10 13:01:19.336  WARN 12856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-10 13:01:19.914  INFO 12856 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@436485d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b5a29, org.springframework.security.web.header.HeaderWriterFilter@9c593b2, org.springframework.security.web.authentication.logout.LogoutFilter@17932b5a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c908e29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cc4ef9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39b9a7b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@433ec06c, org.springframework.security.web.session.SessionManagementFilter@15ac3c45, org.springframework.security.web.access.ExceptionTranslationFilter@1371e642, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7451453c]
+2021-06-10 13:01:20.248  INFO 12856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-10 13:01:20.885  INFO 12856 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-06-10 13:01:21.169  INFO 12856 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+2021-06-10 13:01:21.173  INFO 12856 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 6.636 seconds (JVM running for 49.149)
+?[1;31m
+Start test 64?[0m
+2021-06-10 13:01:21.305  INFO 12856 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 13:01:21.314  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 13:01:21.334  INFO 12856 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+?[1;31m
+Start test 65?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 66?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.category)=upper(?) order by recipe0_.date desc
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.password as password3_1_0_, user0_.status as status4_1_0_ from user user0_ where user0_.id=?
+?[1;31m
+Start test 67?[0m
+Hibernate: select recipe0_.id as id1_0_, recipe0_.fk_author as fk_autho8_0_, recipe0_.category as category2_0_, recipe0_.date as date3_0_, recipe0_.description as descript4_0_, recipe0_.directions as directio5_0_, recipe0_.ingredients as ingredie6_0_, recipe0_.name as name7_0_ from recipe recipe0_ where upper(recipe0_.name) like upper(?) escape ? order by recipe0_.date desc
+Hibernate: select user0_.id as id1_1_0_, user0_.email as email2_1_0_, user0_.password as password3_1_0_, user0_.status as status4_1_0_ from user user0_ where user0_.id=?
+?[1;31m
+Start test 68?[0m
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+?[1;31m
+Start test 69?[0m
+Hibernate: select user0_.id as id1_1_, user0_.email as email2_1_, user0_.password as password3_1_, user0_.status as status4_1_ from user user0_ where user0_.email=?
+Hibernate: select recipe0_.id as id1_0_0_, recipe0_.fk_author as fk_autho8_0_0_, recipe0_.category as category2_0_0_, recipe0_.date as date3_0_0_, recipe0_.description as descript4_0_0_, recipe0_.directions as directio5_0_0_, recipe0_.ingredients as ingredie6_0_0_, recipe0_.name as name7_0_0_, user1_.id as id1_1_1_, user1_.email as email2_1_1_, user1_.password as password3_1_1_, user1_.status as status4_1_1_ from recipe recipe0_ left outer join user user1_ on recipe0_.fk_author=user1_.id where recipe0_.id=?
+?[1;31m
+Start test 70?[0m
+?[1;31m
+Start test 71?[0m
+?[1;31m
+Start test 72?[0m
+?[1;31m
+Start test 73?[0m
+?[1;31m
+Start test 74?[0m
+?[1;31m
+Start test 75?[0m
+?[1;31m
+Start test 76?[0m
+?[1;31m
+Start test 77?[0m
+?[1;31m
+Start test 78?[0m
+?[1;31m
+Start test 79?[0m
+?[1;31m
+Start test 80?[0m
+?[1;31m
+Start test 81?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Jun 10, 2021, 1:01:26 PM</p>
+</div>
+</div>
+</body>
+</html>

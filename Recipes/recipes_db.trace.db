@@ -1,0 +1,9 @@
+2021-06-08 16:36:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE RECIPE (ID BIGINT NOT NULL, CATEGORY VARCHAR(255), DATE TIMESTAMP, DESCRIPTION VARCHAR(255), DIRECTIONS TEXT[[*]], INGREDIENTS TEXT[], NAME VARCHAR(255), FK_AUTHOR BIGINT, PRIMARY KEY (ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+create table recipe (id bigint not null, category varchar(255), date timestamp, description varchar(255), directions text[], ingredients text[], name varchar(255), fk_author bigint, primary key (id)) [42001-200]
+2021-06-08 16:36:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RECIPE" not found; SQL statement:
+alter table recipe add constraint FKns27pg94ksfq9jvfi24set8fr foreign key (fk_author) references user [42102-200]
+2021-06-08 16:37:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RECIPE" not found; SQL statement:
+insert into recipe (fk_author, category, date, description, directions, ingredients, name, id) values (?, ?, ?, ?, ?, ?, ?, ?) [42102-200]

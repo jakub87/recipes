@@ -1,0 +1,24 @@
+recipes/model/Answer.java
+ recipes.model.Answer
+recipes/model/DTO/UserDTO.java
+ recipes.model.DTO.UserDTO
+recipes/RecipesApplication.java
+ recipes.RecipesApplication
+recipes/repository/UserRepository.java
+ recipes.repository.UserRepository
+recipes/controller/RecipeController.java
+ recipes.controller.RecipeController
+recipes/repository/RecipeRepository.java
+ recipes.repository.RecipeRepository
+recipes/model/Recipe.java
+ recipes.model.Recipe
+recipes/configuration/SecurityConfig.java
+ recipes.configuration.SecurityConfig
+recipes/service/RecipeService.java
+ recipes.service.RecipeService
+recipes/model/DTO/RecipeDTO.java
+ recipes.model.DTO.RecipeDTO
+recipes/service/UserService.java
+ recipes.service.UserService
+recipes/model/User.java
+ recipes.model.User
